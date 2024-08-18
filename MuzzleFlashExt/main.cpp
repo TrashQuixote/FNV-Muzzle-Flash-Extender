@@ -391,7 +391,6 @@ namespace HookMuzzleFlashLoaded {
 	static NiNode* __fastcall CheckMuzzleFlashBeforeLoadModel_009BAF94(ModelLoader* _this, MuzzleFlash* _muzzleflash, const char* nifpath, UInt32 baseClass , bool unkArg0 , bool unkArg1, bool unkArg2 , bool unkArg3 )
 	{
 		std::string s_new_muzzleflash_path { nifpath };
-		gLog.Message(s_new_muzzleflash_path.c_str());
 
 		bool success = LookupNewMuzzleFlashPath(_muzzleflash,s_new_muzzleflash_path);
 
